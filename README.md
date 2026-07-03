@@ -1,10 +1,10 @@
-🎛️ Volume in Air
+#🎛️ Volume in Air
 
 A simple Python application that controls your Windows system volume using simple hand gestures and a webcam—no physical contact required! This project leverages computer vision & hand tracking to detect the distance between your thumb and index finger, allowing you to adjust the system volume in real time.
 
 The application is built using Python, OpenCV, MediaPipe, and Pycaw, providing a smooth, intuitive, and responsive touchless volume control experience.
 
-Features
+#Features
 
 🖐️ Real-time hand detection and tracking
 🎚️ Control system volume using thumb–index finger distance
@@ -14,7 +14,7 @@ Features
 📷 Works with any standard webcam
 ⚡ Real-time FPS display
 
-🛠️ Technologies Used
+#🛠️ Technologies Used
 
 Python 3.x
 OpenCV
@@ -24,7 +24,7 @@ Pycaw
 Comtypes
 Webcam
 
-📂 Project Structure
+#📂 Project Structure
 Gesture-Volume-Control/
 │
 ├── volume_control.py      # Main application
@@ -33,7 +33,7 @@ Gesture-Volume-Control/
 ├── README.md
 
 
-⚙️ How It Works
+#⚙️ How It Works
 
 - The webcam captures live video.
 - MediaPipe detects the hand and extracts 21 hand landmarks.
@@ -50,13 +50,13 @@ The OpenCV window displays:
 - Volume percentage
 - FPS counter
 
-🎮 Controls
+#🎮 Controls
 
 Move thumb and index finger apart -> Increase volume
 Move thumb and index finger closer -> Decrease volume
 Pinch fingers together -> Minimum volume
 
-📋 Requirements
+#📋 Requirements
 Windows 10/11
 Python 3.9+ (avoid using Python 3.12+ versions)
 Webcam
